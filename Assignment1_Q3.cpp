@@ -17,8 +17,9 @@ private:
 public:
     void initStudent(){
         this->roll_no = 80370;
-        this->name = "Bhanu Pratap Singh Rathore";
+        this->name="Bhanu Pratap Singh Rathore";
         this->marks = 40; 
+        cout<<this->roll_no<<", "<<this->name<<", "<<this->marks<<endl;
     }
     
     void acceptStudentFromConsole(){
